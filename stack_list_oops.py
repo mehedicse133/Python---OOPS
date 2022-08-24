@@ -34,6 +34,9 @@ class Stack:
             return print(f'stack max sixe is {self.max}  and empty space is {space}') 
 
 
+
+
+
 if __name__ == "__main__":
     s1 = Stack(6)
     s1.push(10)
