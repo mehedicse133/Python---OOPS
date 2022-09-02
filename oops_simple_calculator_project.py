@@ -24,7 +24,7 @@ class Calculator:
 
 if __name__ == "__main__":
 
-    calc = Calculator(1, 1)
+    calc = Calculator(5, 0)
     print(calc.add())
     print(calc.sub())
     print(calc.mul())
