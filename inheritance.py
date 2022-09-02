@@ -1,6 +1,7 @@
 # python inheritance 
 
-class person:
+
+class person:  # parent class
 
     def __init__(self, name, age, phone=None):
         self.__name = name
@@ -16,9 +17,8 @@ class person:
     def setname(self,newname):
         self.__name= newname   
 
-
-
-class student(person):       # Inherite parent class person
+# Inherite parent class person
+class student(person):          # child class        
     
     def __init__(self,name,age,email,dept):
         super().__init__(name, age)
